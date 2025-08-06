@@ -47,6 +47,6 @@ j=(k-1)*nx+1;
 nexttile,
 spy(B2(j:j+nx-1,j:j+nx-1))
 end
-B=[B1;B2];
+B=[B1;B2]; % [B1 B2]*[x1;x2]?
 t=Calc_tvec_2D(dxm1,dym1,dxm2,dym2);
 tnorm=norm(t)^2;
